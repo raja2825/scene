@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #2e8b57;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    display: block;
+    margin-top: 10px;
+}
+
+.maze-container {
+    margin: 20px 0;
+}
+
+#mazeCanvas {
+    border: 2px solid #2e8b57;
+    background-color: #fff;
+}
+
+.question {
+    font-size: 18px;
+    margin: 20px;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #2e8b57;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #006400;
+}

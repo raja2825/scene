@@ -1,0 +1,31 @@
+#boyd,#pol{
+    width: 30%;
+    height: 300px;
+
+}
+#tot{
+    display: flex;
+ align-content: space-between;
+ gap: 80px;
+}
+#boyd{
+    margin-top: 25px;
+}
+#boyi{
+    height: 450px;
+    filter: drop-shadow(10px 0px 5px #1d1d20);
+}
+#boyc{
+    border: 1px solid black;
+    position: relative;
+   left: 65%;
+   width: 40%;
+   bottom: 130%;
+}
+#polc{
+    border: 1px solid black;
+    position: relative;
+    right: 20px;
+   width: 40%;
+   bottom: 180%;
+}
